@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "437237876491",
+    "project_id": "kfs-thasni",
+    "storage_bucket": "kfs-thasni.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437237876491:android:616d94b3d7c07c6cb5c40e",
+        "android_client_info": {
+          "package_name": "com.example.verygoodcore.kfs_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437237876491-h43mfnj5b2jki396mfnuhnd71b0cp4eu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWAoTm5JBAlEjB-MlUQiqaFZYMef4VcOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437237876491-h43mfnj5b2jki396mfnuhnd71b0cp4eu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437237876491:android:e61e0a0fc4c9d0f8b5c40e",
+        "android_client_info": {
+          "package_name": "com.example.verygoodcore.kfs_user.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437237876491-h43mfnj5b2jki396mfnuhnd71b0cp4eu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWAoTm5JBAlEjB-MlUQiqaFZYMef4VcOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437237876491-h43mfnj5b2jki396mfnuhnd71b0cp4eu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
