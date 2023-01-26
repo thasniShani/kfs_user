@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kfs_user/dashboard/dashboard.dart';
 import 'package:kfs_user/login/bloc/login_bloc.dart';
+import 'package:kfs_user/routes/route_constants.dart';
 import 'package:kfs_user/signUp/signUp.dart';
 
 class LoginBody extends StatelessWidget {
@@ -90,11 +91,9 @@ class LoginBody extends StatelessWidget {
                         ),
                         TextButton(
                           onPressed: () {
-                            Navigator.push(
+                            Navigator.pushReplacementNamed(
                               context,
-                              MaterialPageRoute(
-                                builder: (context) => const SignUpPage(),
-                              ),
+                              RouteConstants.userSignUp,
                             );
                           },
                           child: const Text(

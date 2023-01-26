@@ -141,12 +141,12 @@ class SignUpBody extends StatelessWidget {
                               child: const Text('SignUp'),
                             ),
                             TextButton(
-                              onPressed: (() {
+                              onPressed: () {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) => LoginScreen()));
-                              }),
+                              },
                               child: const Text('SignIn Page'),
                             ),
                           ],
