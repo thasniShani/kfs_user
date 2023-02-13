@@ -1,7 +1,5 @@
-import 'dart:js';
-
 import 'package:flutter/material.dart';
-import 'package:kfs_user/batteryServices/view/batteryService.dart';
+import 'package:kfs_user/batteryServices/view/battery_service.dart';
 import 'package:kfs_user/carWash/view/carWash.dart';
 import 'package:kfs_user/dashboard/dashboard.dart';
 import 'package:kfs_user/engineOil/engineOil.dart';

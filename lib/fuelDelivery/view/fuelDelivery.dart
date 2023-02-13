@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:kfs_user/bookings/bookings.dart';
 
 class FuelService extends StatelessWidget {
   const FuelService({super.key});
@@ -25,9 +25,20 @@ class FuelService extends StatelessWidget {
                   ),
                   boxShadow: [BoxShadow(color: Colors.grey, blurRadius: 8)],
                 ),
+                child: Column(
+                  children: [
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => BookingScreen()));
+                      },
+                      child: const Text('Order'),
+                    ),
+                  ],
+                ),
               ),
-              
-            
             ],
           ),
         ),
